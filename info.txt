@@ -1,0 +1,21 @@
+Actúa como Arquitecto Frontend Senior y Especialista en Experiencias Web 3D / WebGL. Vamos a realizar una migración y rediseño completo para la marca **Superpersonalizado** (dedicada a piezas, opciones y figuras personalizadas recortadas en madera), fusionando su catálogo real con la arquitectura visual y animaciones 3D de nuestra plantilla base.
+
+### 1. INSUMOS DEL PROYECTO (EN EL WORKSPACE Y EN LA WEB)
+Antes de escribir código, analiza estrictamente estos dos recursos:
+1. **Plantilla base y código 3D de referencia:** `@página web demostrativa de 3d.txt` (Ubicado en la carpeta del proyecto. Este archivo define la estructura, los movimientos, transiciones, cámara/escena 3D y comportamiento interactivo que **DEBE** conservar la nueva web).
+2. **Sitio web a migrar (Contenido y Catálogo):** [https://superpersonalizado.com/] (Accede mediante tus herramientas/skills web o navegador sin cabeza para inspeccionar el sitio, extraer los modelos de recortes en madera, textos, categorías, especificaciones y las rutas/URLs de sus imágenes sin que yo tenga que descargarlas manualmente). *(Si además dejo imágenes locales en la carpeta del proyecto, intégralas junto con las extraídas).*
+
+---
+
+### 2. OBJETIVO Y REGLAS DE ADAPTACIÓN
+- **Respetar 100% la experiencia 3D:** No simplifiques ni vuelvas estática la página. Mantén intactos los movimientos, transiciones, efectos 3D, shaders/luces o animaciones de scroll definidos en `@página web demostrativa de 3d.txt`.
+- **Migración de Identidad y Catálogo de Madera:** Reemplaza los textos, secciones e imágenes de demostración de la plantilla 3D por el catálogo real de **Superpersonalizado** (sus diferentes modelos y opciones recortadas en madera, detalles de corte, personalización y galería de productos).
+- **Optimización de Activos:** Utiliza directamente las imágenes extraídas o referenciadas (o descárgalas automáticamente vía script dentro de la carpeta `public/assets` del proyecto si es necesario para evitar bloqueos CORS en las texturas 3D).
+
+---
+
+### 3. INSTRUCCIÓN DE EJECUCIÓN (FASE 0: VERIFICACIÓN Y PLAN)
+**NO escribas código de implementación todavía.** En tu primera respuesta:
+1. Confirma la lectura de `@página web demostrativa de 3d.txt` e indica qué tecnologías/librerías 3D utiliza (ej. Three.js, React Three Fiber, GSAP, CSS 3D, etc.).
+2. Activa tus **skills de scraping/navegación web, UI/UX y 3D/Animaciones**, entra a la URL de **Superpersonalizado** y muéstrame un resumen de los modelos de recortes en madera, textos e imágenes que lograste extraer.
+3. Preséntame el **plan de mapeo** (cómo vas a encajar cada sección y producto de madera de Superpersonalizado dentro de las escenas y movimientos de la plantilla 3D) y espera mi aprobación antes de empezar a construir.
